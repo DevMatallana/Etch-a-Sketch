@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+  
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    overflow:hidden;
+}
+  
+.divs {
+    background-color: wheat;
+    border: 1px solid #252525;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 2;
+}
+  
+.divsHover {
+    transition: 50ms;
+    background-color: white;
+}
